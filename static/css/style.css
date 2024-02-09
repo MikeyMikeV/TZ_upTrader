@@ -1,0 +1,93 @@
+body{
+    margin: 0 auto;
+    width: 1920px;
+}
+*{
+    margin: 0 auto;
+    /* background-color: rgba(0, 0, 0, 0.211); */
+}
+
+.container{
+    background-color: white;
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.211);
+}
+
+header{
+    height: 128px; 
+    background-color:rgb(48, 111, 213);
+}
+
+header .top{
+    margin: 0 auto;
+    height: 90px;
+    width: 100%;
+    border-bottom: solid 2px white;
+}
+
+header .top .left, header .top .right{
+    width: 30%;
+    height: 90px;
+    float:left;
+}
+
+header .top .nav_button{
+    float:left;
+    height: 50px;
+    width: 125px;
+    background-color:rgb(34, 79, 153);
+    border-radius: 20px;
+    border-color: transparent;
+    margin: 20px;
+    margin-left: 40px;
+    font-size: medium;
+    color:white;
+}
+
+header .search_bar{
+    float:left;
+    height: 50px;
+    width: 40%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    border-color: transparent;
+    margin-top: 20px;
+    font-size: medium;
+    color:white;
+}
+
+header .search_bar input{
+    float: left;
+    margin-top: 12px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+header .search_bar input:focus{
+    outline: none;
+}
+
+header .search_bar .search_button{
+    float:left;
+    height: 40px;
+    width: 40px;
+    background-color:rgb(224, 235, 110);
+    border-radius: 20px;
+    border-color: transparent;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+}
+
+header .bottom{
+    height: 38px;
+}
+
+.selected{
+    font-size: larger;
+    font-weight: bolder;
+}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block loads %}
+{% load menu_tags %}
+{% endblock loads %}
+
+{% block style %}
+{% endblock style %}
+
+{% block content %}
+<div class="container menu">
+    {% draw_menu 'main_menu' %}
+</div>
+{% endblock content %}

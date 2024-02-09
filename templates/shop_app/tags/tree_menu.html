@@ -1,0 +1,9 @@
+{% load menu_tags %}
+<ul class="tree1">
+    {% for category in categories %}
+        <li id="{{category.pk}}">
+            <a href="{% url 'category' cat_id=category.pk %}" {% if category.pk == selected %}class="selected"{% endif %} >{{category.name}}</a>
+            {% draw_menu category selected %}
+        </li>
+    {% endfor %}
+</ul>

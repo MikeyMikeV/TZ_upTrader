@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block loads %}
+{% load menu_tags %}
+{% endblock loads %}
+
+{% block style %}
+<link rel="stylesheet" href="style.css">
+{% endblock style %}
+
+{% block content %}
+<div class="container menu" id="{{cat_id}}">
+    {% draw_menu 'main_menu' selected=cat_id %}
+</div>
+{% endblock content %}
